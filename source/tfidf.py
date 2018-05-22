@@ -1,6 +1,6 @@
 """
 @version: ??
-@author: lihu.clh
+@author: tiger
 @file: tfidf.py
 @time: 2018/5/18 17:48
 @desc:
