@@ -16,7 +16,7 @@ All the input we use is in the 'input' directory.We will use 'wiki_head_10.txt' 
         stop_words_path='../input/stop_words.txt',
         idf_path='../output/idf.txt'
     )
-    //use 2 process and every process handle 5 docs
+    #use 2 process and every process handle 5 docs
     tfidf.multi_pro_idf(process_num=2, p_doc_num=5)
 ```
 
@@ -38,9 +38,9 @@ TFIDF's parameter
         )
     tfidf.load_idf()
         doc = tfidf.read_file('../input/wiki_test.txt')
-        //a dict contains word and value
+        #a dict contains word and value
         tfidf = tfidf.calculate_tfidf(doc)
-        //extract top 10 key words from one documents
+        #extract top 10 key words from one documents
         tfidf.find_keywords(doc, 10)
 ```
 
