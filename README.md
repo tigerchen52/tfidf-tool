@@ -1,7 +1,7 @@
 # tfidf-tool
 This is an implementation of Python.The tool provides a simple and fast method to calculate tf-idf value.
 ## why use this tool?
-+ the tool calculates idf value by multi processes,which is faster n times than traditional method 
++ the tool calculates idf value by multi processes,which is n times faster than traditional method 
 + it can calculate n-gram tf-idf value
 + and extract key words from documents
 
