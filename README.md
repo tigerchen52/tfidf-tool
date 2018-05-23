@@ -8,7 +8,7 @@ This is an implementation of Python.The tool provides a simple and fast method t
 # quick start
 All the input we use is in the 'input' directory.We will use 'wiki_head_10.txt' which contains 10 documents of wiki to train our model,and use 'wiki_test.txt' to test.
 ### get idf value
-```
+```Python
     doc = Document('../input/wiki_head_10.txt')
     tfidf = TFIDF(
         documents=doc,
