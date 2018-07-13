@@ -95,7 +95,7 @@ class TFIDF():
             temp_doc_list.append(doc)
             if doc_cnt % p_doc_num == 0:
                 args = (temp_path+'temp_idf_' + str(file_cnt) + '.txt', temp_doc_list)
-                self.calculate_idf(args)
+  
                 print('process id = {a}, start!The {b} documents'.format(a=os.getpid(),b=doc_cnt))
                 pool.apply_async(func=self.calculate_idf, args=(args, ))
                 temp_doc_list = []
